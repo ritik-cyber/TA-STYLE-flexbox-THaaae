@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custome style */
+body {
+  /* font-family: "Roboto", sans-serif; */
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 100%;
+  padding: 0 64px;
+}
+/* header part */
+.header {
+  background-color: rgb(7, 7, 37);
+}
+.header-1 {
+  padding: 16px 0;
+  align-items: center;
+}
+:nth-child(2) {
+  color: green;
+}
+:first-child,
+:last-child {
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 20px;
+  float: right;
+}
+
+/* main part */
+
+.col-1-3 {
+  width: 30%;
+  margin: 16px 16px;
+}
+.gallery img {
+  width: 100%;
+  height: 300px;
+
+  object-fit: cover;
+}
+.gallery .flex {
+  flex-wrap: wrap;
+}
+.h1tag {
+  font-size: 30px;
+  color: brown;
+  text-align: center;
+  margin: 40px 0;
+  font-family: "Roboto", sans-serif;
+}
+.flex {
+  display: flex;
+}
+
+/* footer */
+
+.footer {
+  background-color: rgb(7, 7, 37);
+  height: 100px;
+  margin-top: 40px;
+}
+.footer-div {
+  color: #fff;
+  padding: 32px 0;
+  float: left;
+}
+.flex-1 {
+  display: flex;
+  align-items: center;
+}
+.nav-1 a {
+  float: right;
+  margin: 20px;
+}
